@@ -1,0 +1,41 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It allowed me to see what was added and removed.
+    It made it easier for me to see the difference
+    Without having to look at each line.
+
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It will allow you to see where you made typos,
+	refer back to old snippets of code,
+	prevent you from having to start all over,
+	and provide a safety net for your code.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The pros are that you get to make your commits more meaningful
+	but the con is that you might forget to save, and end up losing a lot of work
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately? 
+	Google doc treats each file with the assumption that they are not inherently 
+	related, while Git (for example) is dealing with a whole repository
+	of files that have the power to affect one another
+	so it is important the treat the files as one group.
+
+How can you use the commands git log and git diff to view the history of files?
+	You can use git log to show the commits a repository has as well as how they
+	were affected. You can use git diff
+	to compare different versions of a file in Git
+How might using version control make you more confident to make changes that could break something?
+
+	Using version control would make you more confident to making changes that 
+	could break something, because if you do break something, you can just restore an 	old commit, and essentially undo all of the work you fudged up.
+	This is preferable to messing up all the code and not knowing which areas to fix.
+Now that you have your workspace set up, what do you want to try using Git for?
+ 	I want to try using git to make a website.

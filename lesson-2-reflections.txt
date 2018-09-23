@@ -5,19 +5,20 @@ How is the staging area different from the working directory and the repository?
 	The staging area provides an organized area to see which files you've added; these 	are the files that you can then commit to your repository
 How can you use the staging area to make sure you have one commit per logical
 change?
-	To look at the differences between your working directory and staging areas use 	git diff with no arguments. You can use git diff --staged to see what changes you 	are making from the most recent commit helping you to confirm that you have on 		commit per logical difference.
+	You use the staging area to make sure you have one commit per logical
+	change by only staging one file at a time. This way, your commits only focus on 	changes in one area instead of multiple areas.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
-	Branches would be helpful when you, for example, want to make a different version 	for a game file you are working on or want to try something differently in your 	project later on, but still keep the original version. Branches help you make 		changes to different versions and merge different versions as well. 
+	Branches are helpful when you want to move forward on an idea or experimental 		feature, while still maintaining a version of your work that works. This allows 	you to try out new concepts without fear of messing up your project.
 
 How do the diagrams help you visualize the branch structure?
-	Diagrams help one realize why they may not be able to access a commit or where 		they are/what commit they are looking at and its significance among other commits. 
-
+	Diagrams help you see where other branches where formed in terms of the master 		branch's commit history. This helps you also see the parent commit for each commit 	and the tips of each branch
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
-	Merging a branch into another branch allows for the changes in another branch to 	be saved/incorporated with another branch. The commits of branches will be 		intertwined. Git shows commits with parents so the arrows help us to realize which 	commits may be included or disclosed in a git log. 
+	merging two branches together allows you to combine their commit histories and 	changes together. We rep it the way we do to show that the commit came from both branches.
+ 
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
-	Git's automatically merging is easy, a con would be that git may not be able to 	change it's decisions based on a circumstance and does let you have as much 		control over what is to be merged. Manual merging takes time, a positive would be 	that it forces you and a collaborator to be on the same page about a merge and 		what is about to happen to all the work once it is merged with the other's. 
+	Git's automatic merging is helpful in terms of efficiently and streamlining the process, but it can lead to merged branches that you didn't want to merge. Merging manually, though, can be annoying and lead to errors in when to/ not to merge, but it will allow you to merge more meaningfully
